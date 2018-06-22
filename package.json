@@ -1,6 +1,6 @@
 {
   "name": "egg-webpack-simple",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "eggjs webpack plugin for render multiple page",
   "eggPlugin": {
     "name": "webpackSimple"

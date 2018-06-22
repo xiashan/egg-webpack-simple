@@ -8,17 +8,13 @@
 // exports.webpackSimple = {
 //
 // };
-module.exports = () => {
-  const config = {};
-
-  config.webpack = {
+module.exports = {
+  webpack: {
     port: 9000,
     webpackConfigList: [],
     proxy: {
       host: 'http://127.0.0.1:9000', // target host that matched path will be proxy to
       match: /^\/public\//, // path pattern.
     },
-  };
-
-  return config;
+  },
 };
